@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# runs ping for 5 pings from a terminal arguments
 if [ -z "$1" ]; then
 	echo "Usage: 5-is_the_host_on_the_netowrk {IP_ADDRESS}"
 	exit 1
